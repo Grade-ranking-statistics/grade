@@ -57,7 +57,7 @@ void Student::getPass()
 }
 void Student::printStudent()
 {
-	cout << "名字: " << name << " " << "學號: " << ID << " " << "平均: " << fixed << setprecision(2) << getCourse().getAverage();
+	cout << "名字: " << name << " " << "學號: " << ID << " " << "加權平均: " << fixed << setprecision(2) << getCourse().getAverage();
 	getPass();
 	cout << endl;
 }
